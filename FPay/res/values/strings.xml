@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FPay</string>
+    <string name="action_settings">Settings</string>
+    <color name="BackBlue">#CCFFE5</color>
+    <string name="SendPhoto">Send New Photos</string>
+    <string name="sendnewphoto">Send Photo</string>
+    <string name="LastActivitys">Your Last Activiys;</string>
+    <string name="welcome_newuser">Welcome to the FPay App..\n Please fill out the information below before using application \n</string>
+    <string name="NewUserPhoneNumber">Phone Number</string>
+    <string name="NewUserPhoneNumberHint">Your Phone Number</string>
+    <string name="NewUserEmail">Your E-mail Address</string>
+    <string name="NewUserSignUp">Sign Up</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="NewUserNameHint">Your Name</string>
+    <string name="NewUserPasswordHint">Your Password</string>
+    <string name="NewUserPasswordAgainHint">Your Password Again</string>
+
+</resources>

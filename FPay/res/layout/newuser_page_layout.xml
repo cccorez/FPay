@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackBlue"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_WelcomeNewUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_newuser"
+        android:textAppearance="@style/AppTheme"
+        android:textColor="@color/TextColour"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/inp_UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_WelcomeNewUser"
+        android:ems="10"
+        android:hint="@string/NewUserNameHint"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/inp_UserNumber"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inp_UserName"
+        android:ems="10"
+        android:hint="@string/NewUserPhoneNumberHint"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/inp_UserMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inp_UserNumber"
+        android:ems="10"
+        android:hint="@string/NewUserEmail"
+        android:inputType="textEmailAddress" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/inp_UserPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/inp_UserPassAgain"
+        android:layout_below="@+id/inp_UserMail"
+        android:ems="10"
+        android:hint="@string/NewUserPasswordHint"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/inp_UserPassAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btn_SignUp"
+        android:layout_below="@+id/inp_UserPass"
+        android:ems="10"
+        android:hint="@string/NewUserPasswordAgainHint"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_SignUp"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inp_UserPassAgain"
+        android:layout_centerHorizontal="true"
+        android:text="@string/NewUserSignUp"
+        android:textColor="@color/TextColour" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackBlue"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Welcome_UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome ...."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/TextColour" />
+
+    <TextView
+        android:id="@+id/txt_MainPageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="0.05"
+        android:text="@string/LastActivitys"
+        android:textColor="@color/TextColour"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/lst_HistoryList"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="top"
+        android:layout_weight="0.67" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_SendPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.2"
+        android:text="@string/SendPhoto"
+        android:textColor="@color/TextColour" />
+
+</LinearLayout>
